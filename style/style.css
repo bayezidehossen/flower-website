@@ -8,6 +8,9 @@ body{
 }
 
                          /*header part */
+.first{
+    margin-bottom: 30px;
+}
 
 .header{
     height: 320px;
@@ -45,6 +48,7 @@ body{
     width: 600px;
     margin-top: 0px;
     border: none;
+    border-radius: 3px;
 }
 
 
@@ -141,12 +145,56 @@ body{
     color: darkslategrey;
     font-size: 17px;
 }
-                                       /* responsive part here */
+
+                              /* discount part */
+.discount{
+    display: flex;
+    justify-content: space-between;
+    width: 1113px;
+    height: 250px;
+    margin-bottom: 30px;
+    background-color: bisque;
+}
+.discountcontent{
+    margin-left: 195px;
+    margin-top: 70px;
+}
+.discountcontent h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.discountcontent h2 span{
+    color: red;
+}
+.discountcontent p{
+    width: 400px;
+    font-size: 15px;
+    color: darkslategrey;
+    margin-top: 10px;
+}
+.discountbtn{
+    height: 30px;
+    width: 80px;
+    margin: 10px 0px 0px 80px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.discountimage img{
+    width: 400px;
+    height: 250px;
+    border-radius: 2px;
+}
+                                /* responsive part here */
+
 
 
 @media screen and (max-width: 576px){
     .first{
         margin-left: 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
     body{
         background-color: blue;
@@ -198,4 +246,64 @@ body{
     .image1 h4{
          margin-left: -60px;
      }
+
+
+                              /* icon part */
+
+.mainicon{
+      display: flex;
+      flex-direction: column;
+      height: 260px;
+      width: 540px;
+      margin-top: 1100px;
+      margin-left: 8px;
+      text-align: center;
+}
+.firsticon i{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: crimson;
+}
+.secondicon i{
+    font-size: 30px;
+    margin-left: 6px;
+    margin-bottom: 5px;
+    color: crimson;
+}
+.thirdicon i{
+    font-size: 30px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    color: crimson;
+}
+.thirdicon p{
+    margin-bottom: 20px;
+}            
+
+                          /* discount part */
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    width: 545px;
+    margin-left: 5px;
+   
+}   
+.discountcontent h2{
+    margin: 0px 0px 15px -110px;
+}
+.discountcontent p{
+    margin-left: -110px;
+    font-size: 17px;
+}
+.discountbtn{
+    margin: 15px 0px 0px -30px;
+}
+.discountimage img{
+    width: 545px;
+    margin-top: -10px;
+}
+
 }
