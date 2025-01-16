@@ -7,7 +7,7 @@ body{
     background-color: whitesmoke;
 }
 
-                         /*header part */
+                                /*header part */
 .first{
     margin-bottom: 30px;
 }
@@ -53,7 +53,7 @@ body{
 
 
 
-                       /* main part */
+                               /* main part */
 
 .featured{
     width: 1000px;
@@ -74,6 +74,9 @@ body{
     font-size: 16px;
     color:  rgba(175, 146, 146, 0.945);
 }
+.featuredcontent span{
+    margin-left: 55px;
+}
 .allimage{
     margin-top: 120px;
     margin-left: -530px; 
@@ -90,8 +93,8 @@ body{
 .image1title{
     text-align: center;
 }
-
-                        /* icon part */
+ 
+                                    /* icon part */
 
 .mainicon{
     display: flex;
@@ -159,6 +162,9 @@ body{
     margin-left: 195px;
     margin-top: 70px;
 }
+.discountcontent .spann{
+    margin-left: 100px;
+}
 .discountcontent h2{
     font-weight: bold;
     font-size: 25px;
@@ -175,7 +181,7 @@ body{
 .discountbtn{
     height: 30px;
     width: 80px;
-    margin: 10px 0px 0px 80px;
+    margin: 10px 0px 0px 105px;
     background-color: crimson;
     color: white;
     border: none;
@@ -186,7 +192,39 @@ body{
     height: 250px;
     border-radius: 2px;
 }
-                                /* responsive part here */
+
+                                    /* instagram part */
+.instagram{
+    width: 900px;
+    margin-left: 195px;
+}          
+.instacontent h1{
+    margin-left: 330px;
+    margin-bottom: 10px;
+}        
+.instacontent p{
+    font-size: 15px;
+    margin-left: 160px;
+    width: 500px;
+    color: darkslategrey;
+}
+.instacontent span{
+    margin-left: 170px;
+
+}
+.instapic{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+.instapic img{
+    height: 200px;
+    width: 177px;
+    border-radius: 4px;
+}
+
+                              /* responsive part here */
 
 
 
@@ -305,5 +343,26 @@ body{
     width: 545px;
     margin-top: -10px;
 }
+
+
+                     /* instagram part */
+
+ .instagram{
+    width: 576px;
+    margin-top: 300px;
+    margin-left: -20px;
+}   
+.instacontent{
+    margin-left: -90px;
+}   
+ .instapic {
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+}
+.instapic img{
+    width: 544px;
+    margin-left: 26px;
+} 
 
 }
