@@ -39,7 +39,7 @@ body{
     background-color: rgba(216, 42, 42, 0.889);
     color: white;
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
     font-size: 12px;
 }
@@ -48,7 +48,7 @@ body{
     width: 600px;
     margin-top: 0px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 
@@ -185,12 +185,12 @@ body{
     background-color: crimson;
     color: white;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .discountimage img{
     width: 400px;
     height: 250px;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
                                     /* instagram part */
@@ -222,6 +222,50 @@ body{
     height: 200px;
     width: 177px;
     border-radius: 4px;
+}
+
+
+                      /* footer part */
+
+.footer{
+    background-color: bisque;
+    height: 180px;
+    width: 750px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    margin-left: 195px;
+}    
+.footertitle{
+    margin-left: 250px;
+    padding-top: 30px;
+}      
+.footercontent p{
+    margin-left: 299px;
+    margin-top: 8px;
+    color: darkslategrey;
+}   
+.footerinput, .inputbtnn{
+    height: 34px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.footerinput input{
+    width: 300px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.inputbtnn{
+    margin-left: -7px;
+    height: 34px;
+    width: 70px;
+    background-color: brown;
+    color: white;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
                               /* responsive part here */
@@ -364,5 +408,19 @@ body{
     width: 544px;
     margin-left: 26px;
 } 
-
+ 
+                                    /* footer part */
+.footer{
+    width: 545px;
+    margin-left: 5px;
+}
+.footerinput{
+    margin-left: 35px;
+}
+.footertitle{
+    margin-left: 150px;
+}
+.footercontent p{
+    margin-left: 200px;
+}
 }
